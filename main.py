@@ -7,7 +7,7 @@ set_site_information(
     author="Wehlo Simms",
     description="Add movies and shows to track what you've watched!",
     sources="Thanks to the Drafter docs and my course work.",
-    planning=["plan.pdf", "design.pdf"],
+    planning=["https://docs.google.com/document/d/1ne1lEWRHgwh4AUwr8miETM7Pp6D1J2WSRLeEDPrWdgU/edit?tab=t.0#heading=h.1xxqmmg350hh", "https://docs.google.com/document/d/1tzi4JPFsE7yW56Y22uJ45Qc3PDXD1GL2rFH11wVolJg/edit?tab=t.0#heading=h.1xxqmmg350hh"],
     links=[]
 )
 hide_debug_information()
