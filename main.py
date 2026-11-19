@@ -37,7 +37,7 @@ set_website_style("sakura")
 
 @route
 def index(state: State) -> Page:
-    return Page([
+    return Page(state, [
         Header("Welcome to WatchList!"),
         "Keep track of your movies and TV shows.\n",
         Button("Add a Title", add_title),
@@ -45,8 +45,6 @@ def index(state: State) -> Page:
         Button("Search by Genre", genre_search),
         Button("Filter by Type", filter_by_kind)
     ])
-
-
 
 
 @route
