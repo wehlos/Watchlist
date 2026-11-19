@@ -31,6 +31,10 @@ class State:
     next_id: int
 
 
+
+set_website_style("sakura")
+
+
 @route
 def index(state: State) -> Page:
     return Page([
@@ -41,6 +45,8 @@ def index(state: State) -> Page:
         Button("Search by Genre", genre_search),
         Button("Filter by Type", filter_by_kind)
     ])
+
+
 
 
 @route
