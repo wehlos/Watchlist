@@ -33,9 +33,9 @@ class State:
 
 @route
 def index(state: State) -> Page:
-    return Page(state, [
+    return Page([
         Header("Welcome to WatchList!"),
-        "Keep track of your movies and TV shows.",
+        "Keep track of your movies and TV shows.\n",
         Button("Add a Title", add_title),
         Button("View My Collection", view_collection),
         Button("Search by Genre", genre_search),
