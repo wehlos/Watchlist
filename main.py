@@ -46,7 +46,6 @@ def index(state: State) -> Page:
         Button("Filter by Type", filter_by_kind)
     ])
 
-
 @route
 def add_title(state: State) -> Page:
     return Page(state, [
